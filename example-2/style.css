@@ -37,7 +37,10 @@ nav a:hover{
 }
 
 /* social menu base styles */
-
+a.tw{background: url(img/tw.png) no-repeat center;
+background-size: 80%;}
+a.fb{background: url(img/fb.png)no-repeat center;
+}
 /* flex styles */
 
 @media screen and (min-width: 768px){
@@ -49,6 +52,7 @@ nav ul{
 nav li{
   flex: 1 1 0;
 }
+nav{display:flex;justify-content:space-between ;}
     
 } /* end media 768 */
 
